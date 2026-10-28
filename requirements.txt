@@ -1,0 +1,21 @@
+# Electricity Consumption Analysis & Forecasting
+# Python 3.9+ recommended
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# Note: PySpark requires a compatible Java runtime (JDK 8/11/17).
+# On Windows, set JAVA_HOME before running.
+
+pyspark>=3.4.0,<4.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+streamlit>=1.28.0
+plotly>=5.18.0
+
+# Optional helpers
+pyarrow>=12.0.0
